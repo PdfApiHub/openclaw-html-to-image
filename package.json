@@ -1,0 +1,27 @@
+{
+  "name": "html-image",
+  "version": "1.0.0",
+  "description": "Generate PNG images from HTML content or URLs. Supports custom dimensions, retina quality, full-page screenshots, cookie consent handling, Google Fonts, dynamic placeholders, and image compression. Powered by PDFAPIHub.",
+  "type": "module",
+  "main": "index.ts",
+  "keywords": [
+    "openclaw",
+    "html-to-image",
+    "screenshot",
+    "url-to-image",
+    "image-generation",
+    "html-png",
+    "headless-chromium",
+    "pdfapihub",
+    "clawhub",
+    "ai-agent",
+    "image-compression"
+  ],
+  "author": "PDFAPIHub <hello@pdfapihub.com>",
+  "license": "MIT",
+  "homepage": "https://pdfapihub.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PdfApiHub/openclaw-html-to-image"
+  }
+}

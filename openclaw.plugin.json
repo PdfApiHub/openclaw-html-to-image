@@ -1,0 +1,24 @@
+{
+  "id": "html-image",
+  "name": "html-image",
+  "displayName": "HTML to Image",
+  "description": "Generate PNG images from HTML content or URLs. Supports custom dimensions, retina quality, full-page screenshots, cookie consent handling, Google Fonts, dynamic placeholders, and image compression. Powered by PDFAPIHub.",
+  "version": "1.0.0",
+  "author": "PdfApiHub",
+  "homepage": "https://pdfapihub.com",
+  "extensions": ["./index.ts"],
+  "skills": ["./skills"],
+  "compat": {
+    "pluginApi": ">=2026.3.24-beta.2",
+    "minGatewayVersion": "2026.3.24-beta.2"
+  },
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "PDFAPIHub API key. Get a free key at https://pdfapihub.com"
+      }
+    }
+  }
+}
